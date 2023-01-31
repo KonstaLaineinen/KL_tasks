@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first PHP page</title>
 </head>
+
+<style>
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+</style>
+
+
 <body>
     <h1>3.1 Write a simple PHP script to print your information (Name and your groupid). </h1>
 
@@ -42,19 +54,16 @@ $title = "PHP is interesting";
 
 
 
-
-
 <?php
   
-// Declaration of strings
+
 $g1=  5;
 $g2 = 4;
 $g3 = 5;
-   
-// Display HTML table using PHP echo
-// Use $variable_name to use a string
-// in code
-echo "<table border=1 cellspacing=1 cellpadding=1>
+
+
+
+echo "<table border=1px solid black cellspacing=1 cellpadding=1 border collapse: collapse;>
     <tr> 
        <td><b> S.N </b> </td>
        <td><b> Name </b> </td>
@@ -76,6 +85,8 @@ echo "<table border=1 cellspacing=1 cellpadding=1>
         <td>  $g3 </td>
     </tr>
 </table>";
+
+
 ?>
 
 
