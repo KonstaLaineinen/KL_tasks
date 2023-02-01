@@ -1,4 +1,4 @@
-footer> 
+ 
                 <div class="footer-widget">
                   <div class="container">
                       <div class="row">
@@ -30,7 +30,7 @@ footer>
                     <div class="container">
                         <div class="row">
                             <p class="pull-left">Copyright © 2023 Cecile. All rights reserved.</p>
-                            <p> <img src="images/logo.png"  alt="logo2"></p>
+                            
                         </div>
                     </div>
                   </div>
