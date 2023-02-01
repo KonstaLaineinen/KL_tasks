@@ -1,4 +1,6 @@
-<?php include "header.php" ?>
+<?php
+$title = "Exercise1";
+include "header.php" ?>
     <h3>3.1 Write a simple PHP script to print your information (Name and your groupid). </h3>
 
 <?php
@@ -69,8 +71,12 @@ echo "<table border=1px solid black cellspacing=1 cellpadding=1 border collapse:
     </tr>
 </table>";
 
-
 ?>
+
+<h3> 4 Screenshot of dev env </h3>
+
+    <img src="devEnv.png"
+
 
 <?php include "footer.php" ?>
 

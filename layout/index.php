@@ -1,4 +1,6 @@
-<?php include "header.php" ?>
+<?php
+$title = "Main";
+include "header.php" ?>
 
 <h1>Some content </h1>
 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quis odio adipisci iure dicta, 
