@@ -104,14 +104,7 @@ echo $sum;
 
 ?>
 
-<h2> 6. Write a PHP script to detect the browser being used to view your pages. (Use predefined variables: $_SERVER).</h2>
 
-<?php
-echo $_SERVER['HTTP_USER_AGENT'] . "\n\n";
-
-$browser = get_browser(null, true);
-print_r($browser);
-?>
 
 
 
