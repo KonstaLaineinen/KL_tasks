@@ -3,13 +3,7 @@
 
 <style>
 
-  .info {
-    width:200px;
-    padding:20px;
-    
-    
-    
-  }
+  
 
  
 
@@ -22,19 +16,62 @@
 
 <form action="action.php" method="post" >
 
-First name <input type="text" placeholder="First name" name="fname" class="first"  style="padding: 10px; border-radius:10px; "> <br>
+<div class="row">
 
-Last name <input type="text"  placeholder="Last name" name="lname" class="second" style="padding: 10px; margin:10px 0; border-radius:10px;"> <br>
+  <div class="col">
+  First name <input type="text" placeholder="First name" required name="fname" class="form-control"  style="padding: 10px; border-radius:10px; "> <br>
+</div>
+
+<div class="row">
+
+  <div class="col">
+  Last name <input type="text"  placeholder="Last name" required name="lname" class="form-control" style="padding: 10px; margin:10px 0; border-radius:10px;"> <br>
+</div>
+
+
+
+
+
 
 <input type="submit" value="Submit">
 
-
- 
 
 
 
 
 </form>
+
+
+<h2> 3. Prepare a simple html table and apply bootstrap style to the table. </h2>
+
+<table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
 
 
