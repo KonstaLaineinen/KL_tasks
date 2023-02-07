@@ -93,6 +93,27 @@ echo strlen($combine);
 
 <h2> 5. Write a script to add up the numbers: 298, 234, 46. Use variables to store these numbers and echo statement to output your answer.</h2>
 
+<?php
+
+$fnumber = 298;
+$snumber = 234;
+$tnumber = 46;
+$sum = $fnumber + $snumber + $tnumber;
+
+echo $sum;
+
+?>
+
+<h2> 6. Write a PHP script to detect the browser being used to view your pages. (Use predefined variables: $_SERVER).</h2>
+
+<?php
+echo $_SERVER['HTTP_USER_AGENT'] . "\n\n";
+
+$browser = get_browser(null, true);
+print_r($browser);
+?>
+
+
 
 
 
