@@ -44,34 +44,54 @@
 
 <h2> 3. Prepare a simple html table and apply bootstrap style to the table. </h2>
 
-<table class="table table-hover">
-    <thead>
-      <tr>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>John</td>
-        <td>Doe</td>
-        
-      </tr>
-      <tr>
-        <td>Mary</td>
-        <td>Moe</td>
-        
-      </tr>
-      <tr>
-        <td>July</td>
-        <td>Dooley</td>
-        
-      </tr>
-    </tbody>
-  </table>
-</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">SM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>One</td>
+      <td>Two</td>
+      <td>@13</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Three</td>
+      <td>Four</td>
+      <td>@14</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Five</td>
+      <td>Six</td>
+      <td>@15</td>
+    </tr>
+  </tbody>
+</table>
 
+
+<h2> 4. Write a PHP script with two string variables. Assign any text to these variables. Join them together.  Print the length of the string. </h2>
+
+
+<?php
+
+$first = "Hey";
+$second = "how are you";
+
+$combine = $first . ' ' . $second;
+
+echo strlen($combine);
+
+?>
+
+
+<h2> 5. Write a script to add up the numbers: 298, 234, 46. Use variables to store these numbers and echo statement to output your answer.</h2>
 
 
 
