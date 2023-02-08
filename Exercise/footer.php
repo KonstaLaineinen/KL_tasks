@@ -33,10 +33,14 @@
                                 
                             </p>
 
-                            <?php 
+                            <?php
+
+
                             
-                            
-                            echo "Last modification time of the file: ".date("F d Y H:i:s.",filectime("variable.php"));
+
+                            $fname = basename($_SERVER['PHP_SELF']);
+                            $last_modified = filemtime($fname);
+                            echo "Last modified on: " . date('l jS \o\f F Y, h:i:s A', $last_modified);
                             ?>
                             
                             
