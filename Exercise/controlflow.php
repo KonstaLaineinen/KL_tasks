@@ -71,16 +71,35 @@ Fail less than 50
          $grade = 'Fail';
          echo "Fail";
          break;
-         
-         
-
-       
-
+              
  }
+?>
 
+<h3> 4. Write a program to get inputs (age and name) from the user and based on their age, decide if he/she is eligible for voting. (18 or more than 18 years is eligible for voting,)</h3>
 
+<?php
+
+{
+    $name = "Konsta";
+    $age = 23;
+    if ($age >= 18) {
+        echo $name . ", you are eligible to vote";
+    } else {
+        echo $name . ", you are not eligible to vote. ";
+    }
+}
 
 ?>
+
+
+<h3>5. In task 5, you used $_SERVER['HTTP_USER_AGENT']; to get the browser name. 
+Use Switch statement with strops function to print the name of the browser as below: 
+If someone is using Chrome it should print, you are using Goolge Chrome….
+ </h3>
+
+ 
+
+
 
 
 
