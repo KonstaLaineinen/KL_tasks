@@ -97,7 +97,22 @@ Use Switch statement with strops function to print the name of the browser as be
 If someone is using Chrome it should print, you are using Goolge Chrome….
  </h3>
 
+ <?php
+
+ $user_agent = $_SERVER['HTTP_USER_AGENT'];
  
+
+switch($user_agent) {
+	case (strpos($user_agent, 'Chrome') == true):
+		echo 'You are using Google Chrome';
+	break;
+
+    case (strpos($user_agent, 'Edg') == true):
+		echo 'You are using MS Edge';
+	break;
+	
+}
+?>
 
 
 
